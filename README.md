@@ -180,4 +180,3 @@ Authorization: Bearer <your_jwt_token>
 - Make sure to configure your `.env` file properly.
 
 ---
-```
