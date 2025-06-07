@@ -41,8 +41,8 @@ A backend system for a healthcare application built with Node.js, Express.js, an
 1. Clone the repository
 
 ```bash
-git clone https://github.com/mohan-8/healthcare-backend.git
-cd healthcare-backend
+git clone https://github.com/Mohan-8/Health-care-backend.git
+cd Health-care-backend
 ```
 
 2. Install dependencies
@@ -57,7 +57,11 @@ Create a `.env` file in the root directory and add the following:
 
 ```env
 PORT=5000
-DATABASE_URL=postgres://username:password@localhost:5432/your_database_name
+DB_HOST=localhost
+DB_USER=username
+DB_PASSWORD=password
+DB_NAME=your_database_name
+DB_PORT=5432
 JWT_SECRET=your_jwt_secret_key
 ```
 
