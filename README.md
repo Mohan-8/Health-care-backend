@@ -41,7 +41,7 @@ A backend system for a healthcare application built with Node.js, Express.js, an
 1. Clone the repository
 
 ```bash
-git clone https://github.com/mohan-8/healthcare-backend.git
+git clone https://github.com/Mohan-8/Health-care-backend.git
 cd healthcare-backend
 ```
 
