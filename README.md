@@ -141,10 +141,6 @@ You can also import and test the full API collection directly from Postman here:
 
 [Postman Collection - Healthcare Backend API](https://mohan-1052920.postman.co/workspace/Mohan's-Workspace~8a8680f1-b1be-4ac3-82a7-1b74eb92a8f2/collection/45696052-2a93fb10-5486-487b-ab53-5db75d7ff505?action=share&creator=45696052)
 
-```
-
-
-```
 
 Authorization: Bearer <your_jwt_token>
 
