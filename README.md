@@ -42,11 +42,7 @@ A backend system for a healthcare application built with Node.js, Express.js, an
 
 ```bash
 git clone https://github.com/Mohan-8/Health-care-backend.git
-<<<<<<< HEAD
-cd Health-care-backend
-=======
 cd healthcare-backend
->>>>>>> a414dd1620018137ff9035a48a13c18126c826f2
 ```
 
 2. Install dependencies
@@ -149,9 +145,6 @@ Authorization: Bearer <your_jwt_token>
 ---
 
 ## Project Structure
-
-```
-
 .
 ├── controllers
 │ ├── authController.js
