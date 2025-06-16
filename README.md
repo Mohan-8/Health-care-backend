@@ -70,12 +70,8 @@ Replace `username`, `password`, `your_database_name`, and `your_jwt_secret_key` 
 4. Run database migrations (using Sequelize CLI)
 
 ```bash
-npm install --save sequelize sequelize-cli pg pg-hstore
-npx sequelize-cli init
-npx sequelize-cli model:generate --name User --attributes name:string,email:string,password:string
-npx sequelize-cli model:generate --name Patient --attributes name:string,age:integer,gender:string,userId:integer
-npx sequelize-cli model:generate --name Doctor --attributes name:string,specialization:string
-npx sequelize-cli model:generate --name Mapping --attributes patientId:integer,doctorId:integer
+npx sequelize-cli db:create
+npx sequelize-cli db:migrate
 ```
 
 5. Start the server
